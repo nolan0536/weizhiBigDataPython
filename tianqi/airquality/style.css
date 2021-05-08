@@ -1,0 +1,280 @@
+* {margin:0;padding:0; }
+.fix:after {content:".";display:block;height:0;clear:both;visibility:hidden}
+.fix {display: inline-block}
+/* Hides from IE-mac \*/
+* html .fix {height:1%}
+*+html .fix {height:1%}
+.fix {display:block}
+/* End hide from IE-mac */
+body {padding:0px;margin-top: 50px;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:14px;line-height:20px;}
+p {margin: 10px 0}
+a:link, a:visited {color: #08c;text-decoration:none}
+a:hover, a:active {color: #0169A3;text-decoration:underline;}
+a img{border:0}
+ul,ol,li{ list-style:none}
+.left {float:left}
+.right{float:right}
+.center{text-align:center}
+h1{font-size:1.6em;color:#82b661}
+h2{font-size:1.3em;color:#31708f;font-weight: bold;}
+h3{font-size:1em;color:#82b661}
+/* body \*/
+
+#title{margin-top:10px;text-align:center;font-size: 26px;height: 48px;line-height: 48px;}
+#subtitle{padding-top:10px;text-align:center;font-size: 20px;}
+#content{width:100%;}
+
+
+/* aqi \*/
+.lv0{border-bottom:1px solid #82b661}
+.lv1,.lv2,.lv3,.lv4,.lv5,.lv6{background:#43ce17;font-weight:bold;color:#444;border-bottom:1px solid #82b661}.lv2{background:#efdc31}.lv3{background:#fa0;color:#FFF}.lv4{background:#ff401a;color:#eee}.lv5{background:#d20040;color:#eee}.lv6{background:#9c0a4e;color:#eee}
+.city_aqi{clear:both;overflow:hidden;padding:11px 0 15px}
+.value1,.value2,.value3,.value4,.value5,.value6{text-align:center;width:80px;font-size:36px;_height:50px;line-height:40px;background:#43ce17;float:left}.value2{background:#efdc31}.value3{background:#fa0;color:#FFF}.value4{background:#ff401a;color:#eee}.value5{background:#d20040;color:#eee}.value6{background:#9c0a4e;color:#eee}
+.level{clear:both;position:relative;height:4px}.val{font-size:16px;font-weight:bold;float:left;padding:3px 0 0 10px;width:200px;}.date{color:#666;float:left;font-size:12px}
+.level1,.level2,.level3,.level4,.level5,.level6{width:49px;height:23px;padding-top:3px;font-size:11px;text-align:center;background:#43ce17;border-left:1px solid white;float:left;overflow:hidden}
+.level2{background:#efdc31}.level3{background:#fa0}.level4{background:#ff401a}.level5{background:#d20040}.level6{background:#9c0a4e}
+i,.leveli1,.leveli2,.leveli3,.leveli4,.leveli5,.leveli6{width:10px;height:5px;border-width:5px;background:url('../img/pm25.png') no-repeat;position:absolute;top:-7px;z-index:1}.leveli2{background-position:-10px 0}.leveli3{background-position:-20px 0}.leveli4{background-position:-30px 0}.leveli5{background-position:-40px 0}.leveli6{background-position:-50px 0}
+.levelnum{clear:both;color:#666;padding-top:2px;font-size:12px}
+.levelint{float:left;width:49px;text-align:right}
+.levelint span{float:left;margin-left:1px}
+.des{clear:both;color:#999;font-size:13px}
+.des span{color:#666;}
+
+/* table*/
+table.gridtable {
+  font-family: verdana,arial,sans-serif;
+  color:#333333;
+  font-size:13px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  border-width: 1px;
+  border-color: #eff8fe;
+  border-collapse: collapse;
+  padding:5px;
+}
+table.gridtable th {
+  border-width: 1px;
+  padding: 8px;
+  border-style: solid;
+  border-color: #eff8fe;
+  color: #4f6b72;
+  background: #CAE8EA no-repeat;
+  vertical-align: middle;
+  text-align: center;
+}
+table.gridtable td {
+  border-width: 1px;
+  padding: 5px;
+  border-style: solid;
+  border-color: #eff8fe;
+  vertical-align: middle;
+  line-height:20px;
+}
+table.gridtable td a{
+  color:#08c;
+  text-decoration:none ;
+}
+table.gridtable td a:hover{
+  color:#0169A3;
+  text-decoration:underline
+}
+
+/* logo */
+.logo{text-align: center;margin: 0 auto;}
+
+
+/* footer */
+.footer{
+	margin-top: 15px;
+	text-align: center;
+	margin: 10px auto;
+	font-size: 16px;
+}
+
+.footer a{
+	color:#08c;
+	text-decoration: none;
+}
+.footer a:hover
+{
+	color:#0169A3;
+  	text-decoration:underline
+}
+
+ul.unstyled
+{
+  margin-left: 0;
+  list-style: none;
+}
+
+ul.unstyled li
+{
+  width: 80px;
+  display: inline-block;
+  color: #428bca;
+}
+
+ul.unstyled li a
+{
+  color: #428bca;
+  text-decoration: none;
+}
+
+ul.unstyled li a:hover
+{
+  color: #0D519C;
+  text-decoration: underline;
+}
+
+ul.unstyled1
+{
+  margin-left: 0;
+  list-style: none;
+}
+
+ul.unstyled1 li
+{
+  width: 84px;
+  display: inline-block;
+  color: #428bca;
+}
+
+ul.unstyled1 li a
+{
+  color: #428bca;
+  text-decoration: none;
+}
+
+ul.unstyled1 li a:hover
+{
+  color: #0D519C;
+  text-decoration: underline;
+}
+
+.top
+{
+   font-size: 22px;
+   color: #569918;
+}
+
+.bottom
+{
+   font-size: 16px;
+   margin-top: 10px;
+}
+
+.bottom a
+{
+   color: #08c;
+   text-decoration: none;
+}
+
+.bottom a:hover,a:focus
+{
+    color:#005580;
+    text-decoration:underline;
+}
+
+.hot,.all
+{
+  margin-top: 20px;
+}
+
+.link a{
+  color: #428bca;
+  text-decoration: none;
+}
+
+.link a:hover,a:focus
+{
+    color:#005580;
+    text-decoration:underline;
+}
+
+.sponsor
+{
+   font-size: 16px;
+   padding: 15px 0;
+   text-indent: 2em;
+   line-height: 26px;
+}
+
+.about
+{
+   font-size: 16px;
+   text-indent: 2em;
+   line-height: 28px;
+}
+
+.tip
+{
+    font-size: 15px;
+    line-height: 22px;
+}
+
+.weixin
+{
+  font-size: 16px;
+}
+
+.vote-star
+{
+  display:inline-block;/*内联元素转换成块元素，并不换行 weisay.com*/
+  margin-right:6px;
+  width:85px;/*5个星星的宽度 weisay.com*/
+  height:17px;/*1个星星的高度 weisay.com*/
+  overflow:hidden;
+  vertical-align:middle;
+  background:url(../img/star.gif) repeat-x 0 -17px;
+}
+.vote-star istar
+{
+  display:inline-block;/*内联元素转换成块元素，并不换行 weisay.com*/
+  height:17px;/*1个星星的高度 weisay.com*/
+  background:url(../img/star.gif) repeat-x 0 0;
+}
+
+.featurette {
+    padding:50px 0;
+    border-top: 1px solid #ddd;
+}
+
+/* Pad the edges of the mobile views a bit */
+.marketing {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  text-align: center;
+  margin-bottom: 22px;
+}
+.marketing h2 {
+  font-weight: normal;
+  font-size: 50px;
+}
+.marketing  p {
+
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.marketing  img {
+
+  padding: 0 5px;
+}
+
+.backgroundgray
+{
+   background-color: rgb(247, 247, 247);
+}
+
+.biaoyu
+{
+   font-size: 32px;
+   line-height: 36px;
+   color: #008080;
+   padding-bottom:110px;
+ }
+

@@ -1,0 +1,15 @@
+import scrapy
+import json
+class HotelscrawlSpider1(scrapy.Spider):
+    name = 'localhost'
+    start_urls = ['http://localhost:8080/hotelManagement/index.jsp']
+    def start_requests(self):
+        url="http://localhost:8080/hotelManagement/webpage/query.jsp?city=%E5%8C%97%E4%BA%AC"
+        headers={
+            "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36"
+        }
+        yield scrapy.Request(url,headers=headers,callback=self.start_on,dont_filter=True)
+    def start_on(self,response):
+        datas=response.xpath("//html/body/div[7]/div/div/div/dl/dd").extract()
+        for data in datas:
+            print(data)
